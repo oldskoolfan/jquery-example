@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Example</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<style>
+		ul { font-size: 1.5em; }
+	</style>
+</head>
+<body>
+	<main class="row">
+		<section class="col s8 offset-s2">
+			<h1>jQuery Example</h1>
+			<div id="form">
+				<input id="item" type="text" placeholder="new todo..." />
+				<input id="save-btn" class="btn" type="button" value="Add ToDo" />
+				<input id="cancel-btn" class="btn" type="button" value="Cancel" />
+			</div>
+			<h4>My ToDos</h4>
+			<ul id="todos" class="collection"></ul>
+			<input id="show-form-btn" class="btn" type="button" value="Create New ToDo" />
+		</section>
+	</main>
+</body>
+</html>
